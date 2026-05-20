@@ -1,6 +1,13 @@
 # MINIBANKING API
 
-## Exposed api
+## Guida all'installazione su Windows
+
+1. **Clona il progetto** dentro la cartella `htdocs` di XAMPP.
+2. **Esegui il comando** `composer install` nel terminale.
+3. **Avvia i moduli** Apache e MySQL dal pannello di controllo di XAMPP.
+4. **Apri phpMyAdmin** nel browser.
+5. **Importa ed esegui** lo script contenuto nel file `init.sql`.
+
 
 ### Movimenti
 
@@ -26,13 +33,6 @@ Pu'o essere cancellata solo l'ultima transazione dell'account
 Per inviare dati per la creazione o la modifica di una transazione, essi devono essere inseriti in JSON nel body della richiesta.
 
 I campi monimi sono `amount` e `description`.
-
-## Su Windows
-# Clonare il progetto nella cartella htdocs di xampp e eseguire il comando
- `compose installer`
-# Successivamente avviare apache e mysql
-# Andare su phpmyadmin e incollare lo script di init.sql
-
 
 ## Testing:
 
